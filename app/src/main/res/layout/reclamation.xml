@@ -1,0 +1,227 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reclama"
+    android:orientation="vertical"
+    tools:context=".ProfileManagment.Reclamation"
+    >
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:rotation="180"
+        android:src="@drawable/right"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/fan"
+            android:layout_width="305dp"
+            android:layout_height="61dp"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+
+            android:elevation="20dp"
+            android:translationZ="10dp"
+            app:cardBackgroundColor="@android:color/background_light"
+            app:cardCornerRadius="16dp"
+            app:contentPadding="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medical intervention"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="60dp"
+                    android:layout_height="55dp"
+                    app:backgroundTint="#FFDD7F"
+                    app:fabSize="normal"
+                    app:srcCompat="@drawable/intervention"
+                    android:layout_marginLeft="90dp"
+                    android:onClick="ShowPo"
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/fan2"
+            android:layout_width="305dp"
+            android:layout_height="61dp"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+
+            android:elevation="20dp"
+            android:translationZ="10dp"
+            app:cardBackgroundColor="@android:color/background_light"
+            app:cardCornerRadius="16dp"
+            app:contentPadding="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reclamation Services"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab1"
+                    android:layout_width="60dp"
+                    android:layout_height="55dp"
+                    app:backgroundTint="#DBF8FF"
+                    app:fabSize="normal"
+                    app:srcCompat="@drawable/reclam"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="100dp"
+                    android:onClick="ShowPo"
+
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/fan3"
+            android:layout_width="305dp"
+            android:layout_height="61dp"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+
+            android:elevation="20dp"
+            android:translationZ="10dp"
+            app:cardBackgroundColor="@android:color/background_light"
+            app:cardCornerRadius="16dp"
+            app:contentPadding="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Direct Assistance"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab2"
+                    android:layout_width="60dp"
+                    android:layout_height="55dp"
+                    app:backgroundTint="#C6F863"
+                    app:fabSize="normal"
+                    app:srcCompat="@drawable/appel"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="125dp"
+                    android:onClick="ShowPo"
+
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/fan4"
+            android:layout_width="305dp"
+            android:layout_height="61dp"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+
+            android:elevation="20dp"
+            android:translationZ="10dp"
+            app:cardBackgroundColor="@android:color/background_light"
+            app:cardCornerRadius="16dp"
+            app:contentPadding="3dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Technical Problems Services"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/fab3"
+                    android:layout_width="60dp"
+                    android:layout_height="55dp"
+                    app:backgroundTint="#FF735B"
+                    app:fabSize="normal"
+                    app:srcCompat="@drawable/icon_settings"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="45dp"
+                    android:onClick="ShowPo"
+
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:orientation="vertical"
+    android:background="@drawable/start">
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:orientation="vertical">
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <!--
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:id="@+id/slide_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="U-Accelerator"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/testcolorblue"
+            android:textSize="40sp"
+            android:typeface="serif"
+            android:fontFamily="casual"
+            />
+        !-->
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/uacc1"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

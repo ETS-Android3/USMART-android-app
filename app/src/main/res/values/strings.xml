@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">U-Smart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="uploadImages">Set your image</string>
+    <string name="msg_loading">Loading...</string>
+
+
+    <string name="home">Home</string>
+    <string name="Configuration">Configuration</string>
+    <string name="profile">Profile</string>
+    <string name="Acquisition">Acquisition</string>
+    <string name="likes">Favs</string>
+    <string name="happy">Happy</string>
+    <string name="room">Room</string>
+    <string name="restaurant">Food</string>
+    <string name="shop">Shop</string>
+    <string name="photos">Pics</string>
+    <string name="call">Call</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_subject">CreateSubjectActivity</string>
+    <string name="registration_no">° Registration No =</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="cross_image_content_description">Delete Room from SQLite database</string>
+    <string name="empty_list_message">List is Empty!</string>
+    <string name="student_name">Room Name</string>
+    <string name="update">Update</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="create_button">Create</string>
+    <string name="all_delete">All Delete</string>
+    <string name="edit_button_description">Edit Single Room information</string>
+    <string name="subject_name">Devices Name</string>
+    <string name="subject_code">Devices Code</string>
+    <string name="subject_credit">Devices Credit</string>
+    <string name="add_new_subject">Add New Devices</string>
+    <string name="student_information">Room Information</string>
+    <string name="name">Name</string>
+    <string name="registration_no_with_color">Registration Number: </string>
+    <string name="subject_list">Devices List</string>
+    <string name="student_list">Rooms List</string>
+    <string name="database_summary">Total Rooms: %1$d. Total Devices: %2$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="update_button">Update</string>
+
+
+</resources>
